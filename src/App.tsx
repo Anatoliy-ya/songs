@@ -33,7 +33,7 @@ function App() {
             <li
               className={selectPage === 0 ? 'songs-btn active-nav ' : 'songs-btn'}
               onClick={() => setSelectPage(0)}>
-              <Link to="/songs+">Songs</Link>
+              <Link to="/songs">Songs</Link>
             </li>
             <li
               className={selectPage === 1 ? 'map-btn active-nav ' : 'map-btn'}
